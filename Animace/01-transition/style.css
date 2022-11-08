@@ -39,4 +39,36 @@ body {
 }
 
 
-/* ------------------------------------------ */
+/* :hover pseudotrida ktera mi meni nejakou vlastnost po najeti na vecicku pomoci mysi ------------------------------------------ */
+
+.ctverecek:hover {
+	background-color: rgb(231, 76, 60);
+	width: 800px;
+	opacity: 0.5;
+}
+
+.ctverecek {
+	transition: 0.3s;
+}
+
+.kolecko {
+	transition: 2s;
+}
+
+.kolecko:hover {
+	border-radius: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

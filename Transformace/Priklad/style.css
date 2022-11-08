@@ -21,4 +21,42 @@ h2 {
 
 /* ----------------------- */
 
+.posun {
+	/*transform: translate(100px, 250px);*/
+	transition: 0.3s;
+}
+
+.posun:hover  {
+	transform: translatex(50px)
+}
+
+.rotace {
+	transition: 2s;
+}
+
+.rotace:hover {
+	transform: rotate(180deg);
+	background-color: rgb(255, 187, 0);
+	/*
+	transform-origin: top right;
+	=meni bod kolem ktereho se to toci ten obrazek
+
+	-180deg - pak se to toci na opacnou stranu
+	*/
+}
+
+.zvetseni {
+	transition: 2s;
+}
+
+.zvetseni:hover {
+	transform: scale(1.2);
+	transform-origin: top left;
+	/*
+	transform: skew(30deg);
+	*/
+}
+
+
+
 
