@@ -12,5 +12,25 @@ html { box-sizing: border-box; }
 
 /* ------------------------------------ */
 
+.box {
+	background: url("images/vzor.png");
+	
+	background-repeat: no-repeat;
+
+
+	background-position: left top;
+
+	/*
+	background-position: 10% 10%;
+	prvne zadavam info pro X a pak Y osu
+	*/ 
+
+	background-size: cover;
+}
+
+
+
+
+
 
 
